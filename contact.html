@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Mijn Dienst</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo"><a href="index.html">MijnDienst</a></h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Diensten</a></li>
+        <li><a href="about.html">Over mij</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Neem contact op</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
+      <label>Naam</label>
+      <input type="text" name="name" required>
+      
+      <label>E-mail</label>
+      <input type="email" name="email" required>
+      
+      <label>Bericht</label>
+      <textarea name="message" rows="5" required></textarea>
+      
+      <button type="submit" class="btn">Versturen</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MijnDienst. Alle rechten voorbehouden.</p>
+  </footer>
+</body>
+</html>
