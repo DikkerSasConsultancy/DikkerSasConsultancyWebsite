@@ -56,16 +56,17 @@
   <section id="contact" class="contact">
     <div class="container">
       <h2>Contact</h2>
-      <p>Email: info@bedrijfsnaam.nl</p>
-      <p>Telefoon: 012-3456789</p>
-      <p>Adres: Straatnaam 123, Stad</p>
+      <p>Email: info@dikkersasconsultancy.nl</p>
+      <p>Telefoon: 06-26896278</p>
+      <p>Adres: Middelstebaan 44, Vught</p>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Bedrijfsnaam. Alle rechten voorbehouden.</p>
+      <p>&copy; 2025 Dikker Sas Consultancy. Alle rechten voorbehouden.</p>
     </div>
   </footer>
 </body>
 </html>
+
