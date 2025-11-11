@@ -1,71 +1,54 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bedrijfsnaam</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikker Sas Consultancy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Bedrijfsnaam</h1>
-      <nav>
-        <a href="#diensten">Diensten</a>
-        <a href="#over">Over ons</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <div class="logo">Dikker Sas Consultancy</div>
+        <nav>
+            <ul>
+                <li class="tab active" data-tab="about">About</li>
+                <li class="tab" data-tab="services">Services</li>
+                <li class="tab" data-tab="contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Professionele oplossingen voor uw bedrijf</h2>
-      <p>Wij helpen uw bedrijf groeien met betrouwbare en moderne diensten.</p>
-      <a href="#contact" class="btn">Neem contact op</a>
-    </div>
-  </section>
+    <main>
+        <section id="about" class="tab-content active">
+            <h1>Welkom bij Dikker Sas Consultancy</h1>
+            <p>Wij leveren hoogwaardige consultancy-oplossingen op maat voor uw bedrijf. Onze expertise helpt u te groeien en te excelleren.</p>
+        </section>
 
-  <section id="diensten" class="diensten">
-    <div class="container">
-      <h2>Onze diensten</h2>
-      <div class="grid">
-        <div class="kaart">
-          <h3>Consultancy</h3>
-          <p>Advies en strategie op maat voor uw bedrijf.</p>
-        </div>
-        <div class="kaart">
-          <h3>Webontwikkeling</h3>
-          <p>Moderne websites die professioneel en snel zijn.</p>
-        </div>
-        <div class="kaart">
-          <h3>Marketing</h3>
-          <p>Online marketing om uw bereik en omzet te vergroten.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section id="services" class="tab-content">
+            <h1>Onze Services</h1>
+            <ul>
+                <li>Strategisch Advies</li>
+                <li>Bedrijfsoptimalisatie</li>
+                <li>Projectmanagement</li>
+                <li>Training & Coaching</li>
+            </ul>
+        </section>
 
-  <section id="over" class="over">
-    <div class="container">
-      <h2>Over ons</h2>
-      <p>Wij zijn een toegewijd team van professionals dat klaarstaat om uw bedrijf te ondersteunen en te laten groeien. Kwaliteit, betrouwbaarheid en service staan bij ons voorop.</p>
-    </div>
-  </section>
+        <section id="contact" class="tab-content">
+            <h1>Contacteer Ons</h1>
+            <form>
+                <input type="text" name="name" placeholder="Naam" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Bericht" required></textarea>
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+    </main>
 
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Email: info@bedrijfsnaam.nl</p>
-      <p>Telefoon: 012-3456789</p>
-      <p>Adres: Straatnaam 123, Stad</p>
-    </div>
-  </section>
+    <footer>
+        <p>&copy; 2025 Dikker Sas Consultancy. Alle rechten voorbehouden.</p>
+    </footer>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Bedrijfsnaam. Alle rechten voorbehouden.</p>
-    </div>
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>

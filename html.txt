@@ -57,8 +57,8 @@
     <div class="container">
       <h2>Contact</h2>
       <p>Email: info@dikkersasconsultancy.nl</p>
-      <p>Telefoon: 06-26896278</p>
-      <p>Adres: Middelstebaan 44, Vught</p>
+      <p>Telefoon: 06-26896278 </p>
+      <p>Adres: Middelstebaan 44, 5263 EW Vught</p>
     </div>
   </section>
 
@@ -69,4 +69,3 @@
   </footer>
 </body>
 </html>
-
